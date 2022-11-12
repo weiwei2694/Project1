@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon/logo.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- CONTAINER FLUIT -->
+    <div class="container-fluit">
+        <div class="navbar">
+            <h1 class="text lg">TOH<span class="logot">HFA</span></h1>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- CONTENT 2 -->
+        <div class="content dua">
+            <div class="homepage">
+                <h1>Home <strong>Page</strong></h1>
+            </div>
+            <div class="in-content">
+                <div class="paragraf one">
+                    <h2>Information</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptas reiciendis nostrum
+                        in sed
+                        nesciunt pariatur laborum.<br> Aliquid accusantium quibusdam facilis!</p>
+                    <button type="button"><span class="bg"></span> More Info</button>
+                </div>
+                <div class="paragraf two">
+                    <h2>What Is Toh<span class="logot">hfa</span><small> ?</small></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Voluptas reiciendis nostrum
+                        in sed
+                        nesciunt pariatur laborum.<br> Aliquid accusantium quibusdam facilis!</p>
+                    <button type="button"><span class="bg"></span> More Info</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTENT 1 -->
+        <div class="content satu">
+            <section id="gallery">
+                <div class="title">
+                    <h2 class="glr">#result photo</h2>
+                </div>
+
+                <div class="content-in">
+                    <img src="img/1.jpg" alt="FOTO" title="Sydney Location" loading="lazy">
+                    <img src="img/2.jpg" alt="FOTO" title="Swiss Location" loading="lazy">
+                    <img src="img/3.jpg" alt="FOTO" title="Prancis Location" loading="lazy">
+                    <img src="img/4.jpg" alt="FOTO" title="Australia Location" loading="lazy">
+                    <img src="img/5.jpg" alt="FOTO" title="Italia Location" loading="lazy">
+                    <img src="img/6.jpg" alt="FOTO" title="Jerman Location" loading="lazy">
+                    <img src="img/7.jpg" alt="FOTO" title="America Location" loading="lazy">
+                </div>
+            </section>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <h2>Copyright &copy;2022, designed by <span class="by">@wei</span></h2>
+            <div class="socials">
+                <img src="img/icon/fb.png" alt="Facebook" class="icon">
+                <img src="img/icon/ig.png" alt="Instagram" class="icon">
+                <img src="img/icon/tw.png" alt="Twitter" class="icon">
+                <img src="img/icon/yt.png" alt="Youtube" class="icon">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar")
+            navBar.classList.toggle("active")
+        }
+    </script>
+
+</body>
+
+</html>
